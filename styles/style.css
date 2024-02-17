@@ -1,3 +1,4 @@
+User
 *{
     margin: 0px;
     padding: 0px;
@@ -172,18 +173,99 @@ position: relative;
 font-weight: bolder;
    }
    .holiday-offer{
-    height: 500px;
+    height: 400px;
 
    }
-.special-char{
+.special-char {
     text-align: center;
     margin-top: 20px;
     padding: 30px;
+    position: absolute;
+    font-size: medium;
+    font-weight:900;
+    font-family: Arial, Helvetica, sans-serif;
 }
-.discount{
-    display:inline-block;
+#holiday{
+    color: red;
+}
+.special-char p{
+    font-size: small;
+font-weight: 500;
+}
+.holiday-dicount{
+    height: 700px;
+    margin: 40px;
+
+}
+.dis-details{
+    text-align: center;
+}
+
+.party-girl-gift{
+height: 1200px;
+font-weight: 900;
+margin: 20px;
+padding: 20px;
+}
+.gitfs{
+    padding-left: 50px;
+}
+.gitfs h3{
+    color: red;
+
+}
+.gitfs p{
+    font-weight:500 ;
+}
+.image,.more-image{
+    text-align: center;
+}
+.subscriber{
+    height: 500px;
+    background-color: bisque;
+    margin: 30px;
+
+}
+.email-img{
+    text-align: center;
+    padding: 20px;
 }
 .box{
-    height="100px" width="100px"
-   left: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.form-box{
+    padding: 10px;
+    border-radius: 25px;
+    background: white;
+}
+.form-box input{
+    font-size: 18px;
+    color: black;
+    border: none;
+    outline: none;
+}
+.form-box button{
+    font-size: 18px;
+padding: 0px;
+margin: 0px;
+border-left: 15px;
+  background-color:red;
+    border: none;
+    outline: none;
+
+}
+.footer{
+height: 400px;
+background-color: black;
+color: aliceblue;
+
+}
+.footer-row{
+    display: flex;
+}
+.contract{
+    display: inline-block;
 }
