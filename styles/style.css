@@ -199,7 +199,14 @@ font-weight: 500;
 }
 .dis-details{
     text-align: center;
+   
+
 }
+.dis-details p{
+    color:  rgba(7, 2, 17, 0.60);
+}
+
+
 
 .party-girl-gift{
 height: 1200px;
@@ -210,7 +217,7 @@ padding: 20px;
 .gitfs{
     padding-left: 50px;
 }
-.gitfs h3{
+.gitfs h3,.holi-red{
     color: red;
 
 }
@@ -237,7 +244,7 @@ padding: 20px;
 
 }
 .form-box{
-    padding: 10px;
+    padding: 0px;
     border-radius: 25px;
     background: white;
 }
@@ -246,26 +253,51 @@ padding: 20px;
     color: black;
     border: none;
     outline: none;
+    margin-left: 10px;
 }
 .form-box button{
     font-size: 18px;
-padding: 0px;
+padding: 20px;
 margin: 0px;
 border-left: 15px;
   background-color:red;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
     border: none;
     outline: none;
 
 }
 .footer{
-height: 400px;
+    margin-top: 10px;
+height: 500px;
 background-color: black;
 color: aliceblue;
 
 }
 .footer-row{
     display: flex;
+    justify-content: space-between;
+    padding: 30px;
+
+
 }
-.contract{
-    display: inline-block;
+.footer-row-img{
+    padding:20px ;
+    margin-top: 20px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.web-link,.call-link{
+    display: flex;
+}
+
+.footer-row-copyright{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content:space-between ;
+    margin: 30px;
+    padding: 40px;
 }
