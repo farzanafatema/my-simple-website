@@ -1,4 +1,4 @@
-User
+
 *{
     margin: 0px;
     padding: 0px;
@@ -7,14 +7,16 @@ User
     position:relative;
     width: 90%;
     margin: 0px auto;
-   
+  
 }
+   
+
 .banner img{
     width: 100%;
  
 }
 .heading{
-    color: white;
+   color: aliceblue;
     position: absolute;
     top: 40%;
     width: 100%;
@@ -25,7 +27,7 @@ User
 
 }
 .banner p{
- color: whitesmoke;
+color: aliceblue;
     position: absolute;
     top: 50%;
     font-size: 70px;
@@ -125,11 +127,11 @@ padding: 20px;
    .submit1{
     margin-top: 5px;
     background-color: red;
-    font-size: 15px;
-    font-weight: 800;
+font-size: 24;
     color: aliceblue;
-    border: 0px;
-    padding: 5px;
+border: none;
+    padding: 10px;
+    border-radius: 5px;
 
    }
    .offer-view{
